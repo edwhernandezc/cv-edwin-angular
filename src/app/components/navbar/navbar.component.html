@@ -1,0 +1,12 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
+      <a class="navbar-brand" href="#">Edwin Hernandez C</a>
+    </div>
+    <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+      <mat-button-toggle *ngFor="let item of items" value="{{ item.value }}">{{ item.name }}</mat-button-toggle>
+    </mat-button-toggle-group>
+  </div><!-- /.container -->
+</nav>

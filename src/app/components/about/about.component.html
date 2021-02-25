@@ -1,0 +1,24 @@
+<section class="about_us_area" id="ABOUT">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="about_title">
+          <h2>About Me</h2>
+          <img src="assets/images/shape.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4  wow fadeInLeft animated">
+        <app-progress *ngFor="let progress of progresses" [progress]="progress"></app-progress>
+      </div>
+      <div class="col-md-4  wow fadeInRight animated">
+        <p class="about_us_p">Edwin is software developer engineer with 6+ years of experience. He worked with diferente
+          technologies from example : php, java, jQuery, javascript, node, angular, react native and flutter. He learned
+          very fast different technologies and He is passionate to coding.</p>
+      </div>
+    </div>
+  </div>
+</section>
